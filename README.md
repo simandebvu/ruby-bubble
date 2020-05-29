@@ -1,74 +1,60 @@
-# Project Name
+# BblSort
 
-> One paragraph statement about the project.
+A class with two methods that sort arrays using the Bubble sort algorithm.
 
-![screenshot](./app_screenshot.png)
+## Installation
 
-Additional description about the project and its features.
+Add this line to your application's Gemfile:
 
-## Built With
+```ruby
+gem 'bbl_sort'
+```
 
-- Major languages,
-- frameworks,
-- technologies used
+And then execute:
 
-## Live Demo
+    $ bundle install
 
-[Live Demo Link](https://livedemo.com)
+Or install it yourself as:
 
+    $ gem install bbl_sort
 
-## Getting Started
+## Usage
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+```ruby
+require "bbl_sort"
 
+BblSort::Sorter.sort([4,3,78,2,0,2])
+# => [0,2,2,3,4,78]
 
-To get a local copy up and running follow these simple example steps.
+BblSort::Sorter.sort_by(["hi","hello","hey"]) {|left,right| left.length - right.length}
+# => ["hi", "hey", "hello"]
+```
 
-### Prerequisites
+## Development
 
-### Setup
+After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Authors
 
-👤 **Author1**
+👤 **Shingirayi Innocent**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@simandebvu](https://github.com/simandebvu)
+-   Twitter: [@simandebvu](https://twitter.com/simandebvu)
+-   Linkedin: [simandebvu](https://linkedin.com/in/simandebvu)
 
-👤 **Author2**
+👤 **Osama Aldemeery**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@aldemeery](https://github.com/aldemeery)
+-   Twitter: [@aldemeery](https://twitter.com/aldemeery)
+-   Linkedin: [osamaaldemeery](https://linkedin.com/in/osamaaldemeery)
 
-## 🤝 Contributing
+## Contributing
 
-Contributions, issues and feature requests are welcome!
+Bug reports and pull requests are welcome on GitHub at https://github.com/aldemeery/bbl_sort.
 
-Feel free to check the [issues page](issues/).
 
-## Show your support
+## License
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
