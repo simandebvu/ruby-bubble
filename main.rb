@@ -11,4 +11,6 @@ def sort_by(sortable)
   sortable
 end
 
-
+def sort(sortable)
+  sort_by(sortable) { |left, right| left <=> right }
+end
