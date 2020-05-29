@@ -8,5 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2020-05-29
 ### Added
-- `#sort_by` method in the `Sorter` class.
-- `#sort` method in the `Sorter` class.
+- `#bubble_sort_by` method.
+- `#bubble_sort` method.
+- Repl link added
