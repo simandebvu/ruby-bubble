@@ -2,33 +2,9 @@
 
 A class with two methods that sort arrays using the Bubble sort algorithm.
 
-## Installation
+## Live version 
+[![Run on Repl.it](https://repl.it/badge/github/@simandebvu/ruby-bubble)](https://repl.it/@simandebvu/ruby-bubble)
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'bbl_sort'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install bbl_sort
-
-## Usage
-
-```ruby
-require "bbl_sort"
-
-BblSort::Sorter.sort([4,3,78,2,0,2])
-# => [0,2,2,3,4,78]
-
-BblSort::Sorter.sort_by(["hi","hello","hey"]) {|left,right| left.length - right.length}
-# => ["hi", "hey", "hello"]
-```
 
 ## Development
 
