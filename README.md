@@ -1,74 +1,30 @@
-# Project Name
+# Ruby-Bubble
 
-> One paragraph statement about the project.
+A class with two methods that sort arrays using the Bubble sort algorithm.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+## Live version 
+[![Run on Repl.it](https://repl.it/badge/github/@simandebvu/ruby-bubble)](https://repl.it/@simandebvu/ruby-bubble)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Shingirayi Innocent**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@simandebvu](https://github.com/simandebvu)
+-   Twitter: [@simandebvu](https://twitter.com/simandebvu)
+-   Linkedin: [simandebvu](https://linkedin.com/in/simandebvu)
 
-👤 **Author2**
+👤 **Osama Aldemeery**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@aldemeery](https://github.com/aldemeery)
+-   Twitter: [@aldemeery](https://twitter.com/aldemeery)
+-   Linkedin: [osamaaldemeery](https://linkedin.com/in/osamaaldemeery)
 
-## 🤝 Contributing
+## Contributing
 
-Contributions, issues and feature requests are welcome!
+Bug reports and pull requests are welcome on GitHub at https://github.com/simandebvu/ruby-bubble.
 
-Feel free to check the [issues page](issues/).
 
-## Show your support
+## License
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
